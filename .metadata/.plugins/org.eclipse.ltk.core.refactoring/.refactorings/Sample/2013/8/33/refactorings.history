@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Sample/res/layout/main.xml&apos; to &apos;gridview_main.xml&apos;" description="Rename resource &apos;main.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/main.xml" name="gridview_main.xml" stamp="1376210465719" updateReferences="true"/>
+</session>

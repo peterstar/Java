@@ -1,0 +1,8 @@
+- What does your app do?
+My App asks a user guessing the number between 1 and 20. 
+- Why did you decided to build the app?
+Because it is very simple app that interacts with a user.
+- What do you remember most about your development experience? For example, what was the hardest part of this assignment or the part that required the most time?
+I remember I need to think carefully how each components are arranged. It takes a time to fix errors such as out of range numbers or clearing out input field.
+- What would you like to do next to your app?
+Add graphics (displaying numbers rather than typing a number in input field)

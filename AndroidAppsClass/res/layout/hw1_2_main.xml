@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/hw1_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hw1_question" />
+
+    <EditText
+        android:id="@+id/hw1_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hw1_question"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/hw1_input_hint"
+        android:inputType="numberSigned" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/hw1_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hw1_input"
+        android:layout_alignTop="@+id/hw1_input"
+        android:layout_toRightOf="@+id/hw1_input"
+        android:paddingLeft="10dp"
+        android:text="Guess it!" />
+
+    <TextView
+        android:id="@+id/hw1_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hw1_input"
+        android:layout_marginTop="16dp"
+        android:text="@string/hw1_result" />
+
+</RelativeLayout>

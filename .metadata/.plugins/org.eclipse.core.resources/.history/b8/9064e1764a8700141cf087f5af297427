@@ -1,0 +1,31 @@
+package intro;
+
+public class IntroMain {
+	public static void main(String[] args) {
+		System.out.println("Factorial 5: " + factorial(5));
+		String input = "Reverse";
+		System.out.println("Reverse of " + input + " is " + revStr(input));
+	}
+	
+	public static int factorial(int n) {
+		if (n==0)
+			return 1;
+		else 
+		{
+			return n * factorial(n-1);
+		}
+			
+	}
+	
+    public static String revStr(String input) {
+    	char[] temp = input.toCharArray();
+    	int index = temp.length - 1;
+    	char[] result = {};
+    	for(int i=index; i>0; i--){
+    		result[index-i] = temp[i];
+    	}
+    	return result.toString();
+    	
+    	 
+    }
+}

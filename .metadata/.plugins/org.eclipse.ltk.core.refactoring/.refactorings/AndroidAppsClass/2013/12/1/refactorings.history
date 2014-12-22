@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AndroidAppsClass/publish/AndroidAppsClass.apk&apos; to &apos;HW1_2.apk&apos;" description="Rename resource &apos;AndroidAppsClass.apk&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="publish/AndroidAppsClass.apk" name="HW1_2.apk" stamp="1388467542456" updateReferences="true"/>
+</session>

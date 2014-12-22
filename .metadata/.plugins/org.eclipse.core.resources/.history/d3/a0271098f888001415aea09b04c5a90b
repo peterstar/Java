@@ -1,0 +1,7 @@
+package algo.qa;
+
+// check if it is anagram - input and the reversed input are the same
+
+public class IsAnagram {
+	
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleSpinner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">4 Seasons Image Selector</string>
+    <string name="memo_app_name">Simple Memo</string>
+
+</resources>

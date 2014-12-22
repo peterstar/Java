@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract constant &apos;KEY_COUNT&apos; from expression &apos;&quot;count&quot;&apos;&#x0D;&#x0A;- Original project: &apos;AndroidAppsClass&apos;&#x0D;&#x0A;- Constant name: &apos;KEY_COUNT&apos;&#x0D;&#x0A;- Constant expression: &apos;&quot;count&quot;&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Replace occurrences of expression with constant" description="Extract constant &apos;KEY_COUNT&apos;" flags="786432" id="org.eclipse.jdt.ui.extract.constant" input="/src&lt;com.apps.imagen{ImagenMain.java" name="KEY_COUNT" qualify="false" replace="true" selection="752 7" stamp="1391597953717" version="1.0" visibility="2"/>
+</session>

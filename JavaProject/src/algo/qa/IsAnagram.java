@@ -1,0 +1,13 @@
+package algo.qa;
+
+// check if it is anagram - input and the reversed input are the same
+
+public class IsAnagram {
+	public static void Main(String[] args) {
+		String[] samples = new String[]{"a", "abc", "abcba", "aba", "aa", "abab", "ab"};
+		System.out.println("Find anagram: " );
+		
+	}
+
+
+}

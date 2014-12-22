@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/cs_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"        
+        android:text="@string/cs_name_1"       />
+
+    <ImageView
+        android:id="@+id/cs_image"
+        android:contentDescription="@string/image_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cs_name"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"        
+        android:paddingTop="8dp"
+        android:src="@drawable/tim_berners_lee" />
+    
+	<ScrollView
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_below="@id/cs_image"	 
+	    android:paddingTop="8dp"   
+	    android:layout_centerHorizontal="true" >
+    <TextView
+        android:id="@+id/cs_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textSize="22sp"        
+        android:text="@string/cs_desc_1"    />
+    </ScrollView>
+    
+</RelativeLayout>

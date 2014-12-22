@@ -1,0 +1,33 @@
+package algo.qa;
+
+public class ReverseAndFactorial {
+	public static void main(String[] args) {
+		String input = "Reverse";
+		int numOfFactorial = 5;
+		
+		String output = reverse(input);
+		System.out.println("Reverse: " + output);
+		int resultFactorial = factorial(numOfFactorial);
+		System.out.println("Factorial: " + resultFactorial);
+	}
+	
+	public static String reverse(String input) {
+		char[] temp = null;
+		temp = input.toCharArray();
+		char[] result = null;
+		int index = temp.length-1;
+		for(int i=index; i>0; i--){
+			result[index-i] = temp[i];
+		}
+				
+		return temp.toString();
+	}
+	
+	public static int factorial(int number) {
+		
+		if(number == 0)
+			return 1;
+		
+		return number * factorial(number-1);
+	}
+}

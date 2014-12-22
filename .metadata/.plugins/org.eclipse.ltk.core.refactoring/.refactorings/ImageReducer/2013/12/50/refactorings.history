@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;media&apos;&#x0D;&#x0A;- Original project: &apos;ImageReducer&apos;&#x0D;&#x0A;- Destination element: &apos;media&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     illiac1.jpg&#x0D;&#x0A;     internet_map_1024_transparent.png" description="Copy files" element1="output/3.0/illiac1.jpg" element2="output/3.0/internet_map_1024_transparent.png" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1386494254580" target="/Awesome2a/media" units="0" version="1.0"/>
+</session>

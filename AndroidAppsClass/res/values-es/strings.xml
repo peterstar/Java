@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="caption">
+        El ILLIAC I (Illinois Automatic Computer), una computadora pionera construida en 1952 por la Universidad de Illinois, 
+        fue el primera computadora construida y es propiedad en su totalidad por una institución educacional de los EE.UU.. 
+        ILLIAC I se basó en la NIC Von Neumann arquitectura descrita por el matemático John von Neumann en su influyente 
+        primer borrador de un informe sobre el EDVAC.        
+    </string>
+    
+</resources>
