@@ -8,8 +8,19 @@ public class IntroMain {
 		String input = "Reverse";
 		System.out.println("Reverse of " + input + " is " + revStrByArray(input));
 		System.out.println("Reverse of " + input + " is " + revStr(input));
+		System.out.println("Coin Flips: " + flips());
 	}
 	
+	// coin flips
+	private static String flips() {
+		// TODO Auto-generated method stub
+		if(Math.random()<0.5)
+			System.out.println("Head");
+		else
+			System.out.println("Tail");
+		return null;
+	}
+
 	public static int factorial(int n) {
 		if (n==0)
 			return 1;
